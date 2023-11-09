@@ -14,6 +14,7 @@
 
 int main(void) {
 	printf("Sin terminar. Borrrrrrado");
+	printf("Sin terminar. Borrrrrrado");
 
 	return EXIT_SUCCESS;
 }
