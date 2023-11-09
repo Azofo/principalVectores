@@ -11,10 +11,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "vectores.h"
+#define TAM 30
 
 int main(void) {
-	printf("Sin terminar. Borrrrrrado");
-	printf("Sin terminar. Borrrrrrado");
+
+	int longitud;
+	int vectorE [TAM];
+	float vectorF [TAM];
+
+	puts("Dame longitud");
+	longitud=longitud_vector(TAM);
+	pedir_vectorE(vectorE, longitud);
+	rotar_der_vector(vectorE, longitud);
+	mostrar_vectorE(vectorE, longitud);
 
 	return EXIT_SUCCESS;
 }
